@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0162/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0162/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 四氣攝生圖
+  date: '2015-08-29 00:48:47.679336'
+  source:
+    repository: kanripo
+    path: KR5c0162
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0162_000-ZTDZ.yaml, hash: 'sha256:a166b52595cc842474d04087e63942608fed1e29905dbba1a2dcfa84f263a3b3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0162_000-ZTDZ.markers.yaml, hash: 'sha256:b9b99b18c8df5ad96ab6454e8251ad3ceb3488efaa411afe772eef0f23d162fb'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0162_SJB_000-170224c
+    span:
+    - body
+    - 0
+    - 7290
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:f5527279f6d446a6f9f2286ca3ed02d028fd9dc3b02f8f04a51a3a3c0e9c14f6
